@@ -1,0 +1,4 @@
+as hello_arm.s -0 hello_arm.0
+Id hello_arm.0 -0 hello_arm
+./hello_arm
+objdump -d hello_arm >hello_arm.disasm.txt
