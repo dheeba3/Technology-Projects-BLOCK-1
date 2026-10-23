@@ -1,0 +1,18 @@
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 2.98621 s, 35.1 MB/s
+group20@Pi20-yi:~/Technology-Projects-BLOCK-1/python/week4/text2 $ 
+group20@Pi20-yi:~/Technology-Projects-BLOCK-1/python/week4/text2 $ dd if testfile.bin of=/dev/null bs=100M count=1 iflag=direct
+dd: unrecognized operand 'if'
+Try 'dd --help' for more information.
+group20@Pi20-yi:~/Technology-Projects-BLOCK-1/python/week4/text2 $ dd if= testfile.bin of=/dev/null bs=100M count=1 iflag=direct
+dd: unrecognized operand 'testfile.bin'
+Try 'dd --help' for more information.
+group20@Pi20-yi:~/Technology-Projects-BLOCK-1/python/week4/text2 $ 
+group20@Pi20-yi:~/Technology-Projects-BLOCK-1/python/week4/text2 $ dd if=testfile.bin of=/dev/nill bs=100M count=1 iflag=direct
+dd: failed to open '/dev/nill': Permission denied
+group20@Pi20-yi:~/Technology-Projects-BLOCK-1/python/week4/text2 $ dd if=testfile.bin of=/dev/null bs=100M count=1 iflag=direct
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 2.34997 s, 44.6 MB/s
+group20@Pi20-yi:~/Technology-Projects-BLOCK-1/python/week4/text2 $ nano io.txt

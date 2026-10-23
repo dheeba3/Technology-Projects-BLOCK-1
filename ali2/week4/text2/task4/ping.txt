@@ -1,0 +1,5 @@
+ping 172.17.74.209
+PING 172.17.74.209 (172.17.74.209) 56(84) bytes of data.
+^C
+--- 172.17.74.209 ping statistics ---
+222 packets transmitted, 0 received, 100% packet loss, time 226297ms
