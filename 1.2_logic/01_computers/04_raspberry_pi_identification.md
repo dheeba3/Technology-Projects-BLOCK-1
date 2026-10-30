@@ -8,8 +8,8 @@ images/raspberry-pi/labelled-pi-board.jpg
 
 | Component | Function |
 |-----------|----------|
-| SoC | |
-| GPIO | |
+| SoC | |Contains the CPU and GPU.it processes instructions and controls the Raspberry Pi.
+| GPIO | Allows the Raspberry Pi to connect and communicate with external electronic components,sensors,and devices.|
 | USB | |
 | HDMI | |
 | Power | |
