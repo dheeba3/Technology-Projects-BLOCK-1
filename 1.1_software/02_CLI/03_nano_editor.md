@@ -24,3 +24,4 @@ Learn to create and edit text files from the CLI.
 
 **Commit and push the changes**
 
+<img width="954" height="580" alt="image" src="https://github.com/user-attachments/assets/61b6c3ba-b9d5-4641-98b2-096255121fb2" />
